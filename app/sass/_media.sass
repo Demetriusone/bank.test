@@ -1,0 +1,80 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+.logo a
+    white-space: nowrap
+.top-nav
+           justify-content: center
+           ul
+               li
+                padding: 0px 3px
+                a
+                    font-size: .875rem  
+.btn
+    font-size: 12px
+    padding: 15px 28px 13px
+
+                
+// ≥992px
++media-breakpoint-down(md)
+    .section
+        padding: 30px 0px
+    .hidden-sm
+        display: none
+    h1.quest
+        font-size: 1.875rem
+        line-height: 2.25rem
+    .btn.btn-lg
+        font-size: 13px
+        padding: 15px 25px 13px
+    .buttons
+        margin-top: 30px 
+    
+
+// ≥768px
++media-breakpoint-down(sm)
+    .hidden-xs
+        display: none
+    th, td
+        padding: 5px 10px
+        font-size: 14px
+    .icon span
+        width: 30px
+        height: 30px
+   
+// ≥576px
++media-breakpoint-down(xs)
+    p.desc
+        font-size: 1.125rem
+    .visible-mobile
+        display: block
+    .footer .phone-block
+        text-align: center!important
+    
+  
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+    
+  
+
+// ≤768px
++media-breakpoint-up(md)
+   
+
+    
+
+// ≤992px
++media-breakpoint-up(lg)
+    .hidden-md
+        display: none
+    
+// ≤1200px
++media-breakpoint-up(xl)
+    .hidden-lg
+           display: none

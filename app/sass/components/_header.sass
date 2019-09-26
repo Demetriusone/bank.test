@@ -1,0 +1,56 @@
+.site-header
+    padding: 20px 0px
+.logo
+    a
+        line-height: 1
+        color: $dark
+        font-size: 22px
+        font-family: "MuseoBlack",sans-serif
+        text-decoration: none
+        +media-breakpoint-down(xs)
+            font-size: 18px
+        span
+            display: table
+            font-family: "MuseoReg",sans-serif
+            font-size: 13px
+            color: $text
+            white-space: nowrap
+            +media-breakpoint-down(xs)
+            font-size: 11px
+.phone-block
+    line-height: 1.4
+    a
+        text-decoration: none
+        color: $dark
+        font-size: 20px
+        font-family: "MuseoBold",sans-serif
+        
+    .city
+        display: inline-block
+        border-bottom: 1px solid $text
+        font-size: 12px
+        font-family: "MuseoMed",sans-serif
+.tel-link i
+    font-size: 26px
+    color: $dark
+.menu-btn
+    z-index: 300
+    display: block
+    border: none
+    cursor: pointer
+    background: transparent
+    font-size: 26px
+    outline: none!important
+    text-decoration: none
+    color: $dark
+    i
+        font-size: 26px
+    &.is-active
+        i::before
+            content: ""
+    
+
+            
+        
+        
+        
